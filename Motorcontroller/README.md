@@ -19,14 +19,11 @@ The controller (`steppermotor.v`) is built around a robust 8-state machine archi
 The design was verified using **ISim** to ensure the phase-shifting logic was timing-accurate:
 
 * **Transient Analysis**: Simulated the FSM over a 1.00us window to verify the continuous cyclical transition of states.
-* **Waveform Verification**: The simulation results, documented in **Motorcontroller.png**, confirm that the output phases shift correctly without overlapping errors.
-* **Testbench Stimulus**: Developed a specialized testbench (`test.v`) to provide a continuous clock and reset pulse for functional testing.
+* **Waveform Verification**: The simulation results, confirm that the output phases shift correctly without overlapping errors.
 
 
 
 ## Directory Structure
 
 * `/src`: The FSM RTL design file (`steppermotor.v`).
-* `/tb`: The Verilog simulation testbench (`test.v`).
-* `/sim`: High-resolution simulation waveforms, specifically **Motorcontroller.png**.
-* `/docs`: Project reports and technical diagrams explaining stepper motor phase control.
+* `/sim`: simulation waveforms, specifically.
