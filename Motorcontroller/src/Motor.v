@@ -30,7 +30,7 @@ end
 always @(*) begin
 case (current_s)
 s0: begin {outl, out2, out3, out4} = 4'b1001; next s = sl; end
-sl: begin {outl, out2, out3, out4} = 4'b1100; next s =
+sl: begin {outl, out2, out3, out4} = 4'b1100; next s = s2;
 s2: begin {outl, out2, out3, out4} = 4'b0110; next s = s3; end
 s3: begin {outl, out2, out3, out4} = 4'b0011; next s = s4; end
 s4: begin {outl, out2, out3, out4} = 4'b1001; next s = s5; end
