@@ -9,7 +9,7 @@ case (binary)
 3'b101: seg = 7'b1011011; // 5
 3'b110: seg = 7'b1011111;// 6
 3'b111: seg = 7'b1110000; // 7
-default: seg = 7'b1111111; // Default case (shouldn't ha
+default: seg = 7'b1111111; // Default case
 endcase
 
 endmodule
