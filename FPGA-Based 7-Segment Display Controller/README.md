@@ -27,5 +27,5 @@ Design verification was conducted using **ISim** before hardware deployment:
 
 ## Project Structure
 
-* `/src`: Verilog source files (`counter.v`, `TFF.v`).
+* `/src`: Verilog source files.
 * `/sim`: ISim waveform screenshots and simulation logs.
