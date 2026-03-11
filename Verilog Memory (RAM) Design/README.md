@@ -29,7 +29,5 @@ Verification was performed using a custom Verilog testbench (`testben.v`) in **I
 
 ## Directory Structure
 
-* `/src`: The core RTL design file (`MEM.v`).
-* `/tb`: The simulation testbench (`testben.v`) used for stimulus generation.
-* `/sim`: High-resolution waveform screenshots, including **memory-waveform.png**.
-* `/docs`: Technical reports and documentation covering the sequential logic flow.
+* `/src`: The core RTL design file.
+* `/sim`: waveform screenshot
